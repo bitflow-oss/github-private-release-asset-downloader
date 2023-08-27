@@ -1,9 +1,10 @@
 # Webhook-based Github private repository release asset downloader
-The release asset downloader in the Github private repository. 
 
-You may build this to native excutable then use this as asset download Web Hook API, 
+A webhook program that downloads release asset files from a private Github repository.
 
-then call this Web Hook URL from some of Github Actions like below.
+You can build the source code into an executable file, then use it as a web hook to download release assets.
+
+Then, when almost building step finished, you can call this webhook URL using the Github Actions like below to deploy it.
 
 https://github.com/marketplace/actions/workflow-webhook-action
 
@@ -15,4 +16,4 @@ There may be some bugs, but if it's a non-mission-critical system, wouldn't it b
 
 Anyway, I'll update it soon.
 
-- Made with Go Lang + Fiber.
+- Made with Go Lang + Fiber
